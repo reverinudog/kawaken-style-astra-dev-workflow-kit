@@ -103,11 +103,11 @@
     },
     {
       "name": "PROJECT.md",
-      "sha256": "e01f4e8f839f1b2da4dd62541cb2c717ea76a7c8224fcf6a0ea0fa455ed10869"
+      "sha256": "31e2cfa95f65cd52d0bf9211e03324e5ebcb77636bbc70b15c85247a210a1459"
     },
     {
       "name": "README.md",
-      "sha256": "c6820966ee6755bd83779e11d42bad5c7f5b10c47d4dc6f6dbbc723836357a46"
+      "sha256": "6bdd9eee75e0e48a5d98f92a6ccea52efbb665d19db7b4e68aeaf9b63f2d861f"
     },
     {
       "name": "SECURITY.md",
@@ -199,7 +199,7 @@
     },
     {
       "name": "docs/harness/validation.md",
-      "sha256": "6bb9198c67dfe1cb00f8760ae08049fd1173269ec292b8a318d182562734f754"
+      "sha256": "308cefc28c26afe6427fc79175785a663d1594966353cde231f55ba7801815eb"
     },
     {
       "name": "docs/harness/workflows/ai-contract.md",
