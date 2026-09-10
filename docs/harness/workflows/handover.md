@@ -28,13 +28,14 @@ GitHub CLIの対応を`gh pr merge --help`で確認し、merge時は`--author-em
 `--match-head-commit`へレビュー済みheadを必ず指定する。未対応・作者指定の拒否時は、その方法でのmergeを止める。
 私用メールや指定省略へ自動で切り替えない。既存の承認とbranch保護が許す運用では、
 レビュー済みhead・統合先・祖先関係を確認し、作者情報を保持したfast-forwardで統合できる。
-新しいcommit生成を伴わない統合でも、remote上のSHA・PRの統合状態・公開範囲を確認する。
+新しいcommit生成を伴わない統合でも、remote上のSHAと公開範囲を確認する。PRを使った場合だけPRの統合状態も確認する。
 作成されたmerge commitを取得し、メールは値をログへ出さず許可したidentityとの一致を検査する。
 PRを使った場合は仮マージのSHAとrefs/pull/*/mergeも監査する。閉じたPRの旧SHAも残り得る。
 GitHubのcommitter `noreply@github.com` は正確な一致だけを例外とする。
 誤混入時に自動force pushを行わず、影響を説明して具体的な復旧案を用意する。
 
-branch削除は、対象PRのheadで統合済み、追加の未統合commitがなく、継続作業・共有利用がない場合だけ。
+branch削除は、レビュー済みheadがremote統合先へ到達し、追加の未統合commitがなく、継続作業・共有利用がない場合だけ。
+PRを使った場合はそのheadとの一致と統合状態も確認する。PRなしのfast-forwardでは、取得したremoteのSHAと祖先関係を根拠にする。
 履歴の強制書換や未統合branchの破棄は通常手順に含めない。
 統合先のローカル同期ができない場合は、無理に他作業を切り替えず、その状態を報告する。
 
