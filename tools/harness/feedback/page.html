@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>説明と回答</title><link rel="stylesheet" href="/page.css">
+<script type="module" src="/page.js"></script>
+</head>
+<body>
+<main>
+<header><p class="eyebrow">Astra Dev Harness</p><h1 id="title">資料を読み込み中</h1><p id="intro"></p></header>
+<p id="alert" class="alert" role="alert" hidden></p>
+<p id="draft-status" class="muted" aria-live="polite"></p>
+<section id="archive-panel" hidden><h2>以前の版の入力</h2><p>資料が更新されました。以前の回答は保管しています。新しい内容を確認してから選び直してください。</p><details><summary>保存済みの入力を見る</summary><div id="archives"></div></details></section>
+<nav class="top-nav" aria-label="資料の表示"><span id="progress"></span><button id="overview" type="button">一覧で確認</button></nav>
+<section id="slide" aria-labelledby="item-title"></section>
+<section id="summary" hidden><h2>回答の一覧</h2><div id="summary-items"></div>
+<label class="field">全体へのコメント<textarea id="general" rows="3" maxlength="10000"></textarea></label>
+<p class="muted">「全件を提出」を押した時だけPCへ保存し、同じCodexタスクへ知らせます。</p>
+<button id="submit" class="primary" type="button">全件を提出</button></section>
+<nav class="bottom-nav" aria-label="項目の移動"><button id="previous" type="button">前へ</button><button id="next" class="primary" type="button">次へ</button></nav>
+<section id="delivery" hidden aria-live="polite"><h2>提出状況</h2><ol class="delivery-steps"><li id="saved-state">PC保存：未確認</li><li id="notified-state">Codex通知：未確認</li><li id="received-state">回答の受領：未確認</li></ol><p id="delivery-detail"></p><button id="refresh-status" type="button">状況を確認</button> <button id="retry-notification" type="button" hidden>通知を再試行</button></section>
+<footer>下書きはこのブラウザに保存されます。提出済み回答はPCに保存されます。</footer>
+</main>
+</body></html>

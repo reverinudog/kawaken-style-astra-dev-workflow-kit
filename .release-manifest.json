@@ -1,0 +1,405 @@
+{
+  "format": 1,
+  "files": [
+    {
+      "name": ".agents/skills/astra-ai-contract/SKILL.md",
+      "sha256": "8996fa9f92850656064fc88a9895d299e7b2324b04bec901d02f89fe33853890"
+    },
+    {
+      "name": ".agents/skills/astra-consult-pro/SKILL.md",
+      "sha256": "d348ac1aeea6cb38cfdaffb0162a5c71e127770016a64e5f5bffb853e68f29f7"
+    },
+    {
+      "name": ".agents/skills/astra-data-check/SKILL.md",
+      "sha256": "98a1c29aaa8ee427466c77aec9ff64c209d05da6d8a59f4fe0ae4f0f32e39f24"
+    },
+    {
+      "name": ".agents/skills/astra-gemini-rescue/SKILL.md",
+      "sha256": "0793ca4bc2aeaa2b3d65c3abfc725c5a3373a5b0152a44a648f7618b752ebfd2"
+    },
+    {
+      "name": ".agents/skills/astra-handover/SKILL.md",
+      "sha256": "602af8511d60e26812886565c96c6cba5eb20456411c637207814e4fbb59cbeb"
+    },
+    {
+      "name": ".agents/skills/astra-html-feedback/SKILL.md",
+      "sha256": "4308654b18d92a1b09b3df21bd3629329aaa9fb0adb2e4931a5589451aa7ca0c"
+    },
+    {
+      "name": ".agents/skills/astra-lessons/SKILL.md",
+      "sha256": "f3d8bc59ca0cc476ab962b37e748cd7239b6c0472be04ae4a438aa8ce3382136"
+    },
+    {
+      "name": ".agents/skills/astra-media/SKILL.md",
+      "sha256": "a7e1356508265b56af2c7a1d0d5b0446bc863234ede35a4b10184e9728849be5"
+    },
+    {
+      "name": ".agents/skills/astra-plan-task/SKILL.md",
+      "sha256": "c053c9d4891cb88c5a01b979e74949ad697299635bb4f7f1509a08411116844c"
+    },
+    {
+      "name": ".agents/skills/astra-queue/SKILL.md",
+      "sha256": "5c787f5ac972aec6652855846c8f89d221b77e0bdcbb25146e2b4a67890615b7"
+    },
+    {
+      "name": ".agents/skills/astra-release-notes/SKILL.md",
+      "sha256": "6ab4599b9b889045e7d7932ecdb4d43b7b15dff68981b7e57569a6ddf3097e97"
+    },
+    {
+      "name": ".agents/skills/astra-release/SKILL.md",
+      "sha256": "171dd4bed3c3fb315f7bfd66ca5a586bf6e2f2e27b36c50238c9f376dad536fe"
+    },
+    {
+      "name": ".agents/skills/astra-review/SKILL.md",
+      "sha256": "d05294be371270f725889a133bf5b3237dc61a9d7053e2511d283df3206a64d7"
+    },
+    {
+      "name": ".agents/skills/astra-security-check/SKILL.md",
+      "sha256": "bca1d771b2d750af615370dccb04c66bc8269f7a61d24c1bea1657b41ba26f66"
+    },
+    {
+      "name": ".agents/skills/astra-session-start/SKILL.md",
+      "sha256": "bdbf7bb2555ea122e83d0a2714bf49307cb101832b9cc605423828862d386ff5"
+    },
+    {
+      "name": ".agents/skills/astra-setup/SKILL.md",
+      "sha256": "c8db0d531d1e43a47948e4f3ead64f906dccf298c3c6d3517d1aaa441c6fde33"
+    },
+    {
+      "name": ".agents/skills/astra-task-start/SKILL.md",
+      "sha256": "2212616016dfbfb2203c440c93fe2d8323e2941c9d00ef16a54f04c34a06c230"
+    },
+    {
+      "name": ".agents/skills/astra-ui-check/SKILL.md",
+      "sha256": "00fb1961069c36a0d8b0fd96962135e388f72185d16f59b96d141badf946fd40"
+    },
+    {
+      "name": ".agents/skills/astra-verification/SKILL.md",
+      "sha256": "65c4b9a7861b77d6c079c45b1fb8035eca344fe0c473eda433a3cbae32cbf79e"
+    },
+    {
+      "name": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "name": ".github/workflows/verify.yml",
+      "sha256": "913364f43c258ecd29506ce621395f260f17549d3b5f2d2c74c265c45ee09535"
+    },
+    {
+      "name": ".gitignore",
+      "sha256": "448647be44fab9f7f9d5bad008ad2f8b5c7c6fa27720fcc37e724923fd2c5fcf"
+    },
+    {
+      "name": "AGENTS.md",
+      "sha256": "11962b10f917a3f4833d10f03100ffe02a3de1aaaaf16ad3445733e137f56e45"
+    },
+    {
+      "name": "CONTRIBUTING.md",
+      "sha256": "5f4cf5a6ad9c294c93f9cc53b0f03a47819cce7867464b222c313633c419b9d0"
+    },
+    {
+      "name": "LICENSE",
+      "sha256": "ee238b2a9c64e3ba03ee6339d3abd079d72e93a84c9f905cf4f0c5886c5504d6"
+    },
+    {
+      "name": "PROJECT.md",
+      "sha256": "e01f4e8f839f1b2da4dd62541cb2c717ea76a7c8224fcf6a0ea0fa455ed10869"
+    },
+    {
+      "name": "README.md",
+      "sha256": "92d7b3467035bd207c6e6b34777fff98e967eb936225d0acc6118dc74e1a700d"
+    },
+    {
+      "name": "SECURITY.md",
+      "sha256": "153645f04712d0ded48c2d81a58bfdfc6d90794eec804b095a8d7278e3b70e6a"
+    },
+    {
+      "name": "SETUP.md",
+      "sha256": "51edd7dacef0cbb3157c61464299d2292034407e7dce7d32f54646ac939ee462"
+    },
+    {
+      "name": "docs/harness/LESSONS.md",
+      "sha256": "2a0da95b435368dcc168f8bd9c0281aa73a4a504b0f2a4830123a145b0e089b8"
+    },
+    {
+      "name": "docs/harness/NEXT_TASKS.md",
+      "sha256": "f249db8890a461de34f6d1bc634ab0fa8231047c4c1c1ce3de509b373de024d1"
+    },
+    {
+      "name": "docs/harness/adapters/codex.md",
+      "sha256": "63eaa135b13380243b26767a54794051e2e5785b9473d1ce9d5f9007560efbcb"
+    },
+    {
+      "name": "docs/harness/coverage.md",
+      "sha256": "7fd71bec31c3a2c81b33276bd8f86745e6e664946a821b26401170d903a7a49d"
+    },
+    {
+      "name": "docs/harness/documentation-map.md",
+      "sha256": "b576e64a2cc86e5d52c607bf7a51ec21a71d6afaa20a038f4fa4cb63f4a0df6d"
+    },
+    {
+      "name": "docs/harness/extraction.md",
+      "sha256": "c14d23fcf5fe22005343258b9fa88cc6352d7140b71c09b4cc75af3f6d383608"
+    },
+    {
+      "name": "docs/harness/lessons/README.md",
+      "sha256": "430584df4d23e6ae989f0c5e96161dba4f1f8e916857197336125d12ee0d3d84"
+    },
+    {
+      "name": "docs/harness/lessons/git-identity.md",
+      "sha256": "edda592f30e112abbd2239bc70f3d6e60c565f4d6d03f39841e656b027000ed5"
+    },
+    {
+      "name": "docs/harness/overview.html",
+      "sha256": "893e52a406b2e507f45113602e4f17f29ca5cc41d0f10fb997788395811e9c82"
+    },
+    {
+      "name": "docs/harness/publication.md",
+      "sha256": "a14a233b1356cc34d245ae49119848abf25b0a0463f3b19e9fd445076cba283b"
+    },
+    {
+      "name": "docs/harness/setup.md",
+      "sha256": "6218a6f41583617b2436a4454b6b4c58a4263184f4cb3ddbe344c2eab4757f6a"
+    },
+    {
+      "name": "docs/harness/tasks/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "name": "docs/harness/tasks/done/complete-portable-workflows.md",
+      "sha256": "1f88f26633bf405154c25850826b026b3d2781159b9c0002e8e809e5ca8168e7"
+    },
+    {
+      "name": "docs/harness/tasks/done/html-feedback-experience.md",
+      "sha256": "3289951e08293dba79b2693cc567e42a02e885bf51109e65263496799fbb3350"
+    },
+    {
+      "name": "docs/harness/templates/feedback-explain.json",
+      "sha256": "68698369eac899e956ebea13dd60afe62645a74a95379187c6ee501a9d771ef2"
+    },
+    {
+      "name": "docs/harness/templates/feedback-review.json",
+      "sha256": "7aaa5814e309e021184d12e873d96daeda213c5ddb363143ac262c29f0ac0d16"
+    },
+    {
+      "name": "docs/harness/templates/handover.md",
+      "sha256": "cf5bb85beba7c88efcd25c71ee9c4031d8c95d452078adf19b937474e09489b2"
+    },
+    {
+      "name": "docs/harness/templates/project.md",
+      "sha256": "2e4c95e3f41519d147eb6c88ce2627391d18071b12b9055014bef80076917cbc"
+    },
+    {
+      "name": "docs/harness/templates/review.md",
+      "sha256": "7d0bf2ccea88b37f93a44988323cce91af29df61dd2a7c63a26d0c77d819e0ca"
+    },
+    {
+      "name": "docs/harness/templates/task.md",
+      "sha256": "b11d99138a9df1414055f72bf3581fd70d077f07b1848c6d4920e7fc65c888ce"
+    },
+    {
+      "name": "docs/harness/validation.md",
+      "sha256": "91dd77ca6dac9f6c563f5583d05352abb494851af1f6415a7af0ac609f119c89"
+    },
+    {
+      "name": "docs/harness/workflows/ai-contract.md",
+      "sha256": "b1c903ab275689f12521585328432f64b17fe8028536cdcf215a4538d79590fd"
+    },
+    {
+      "name": "docs/harness/workflows/communication.md",
+      "sha256": "70176a1b181fdb222fad97fae8636181df1b93eae844f2323ef23b1b051a7229"
+    },
+    {
+      "name": "docs/harness/workflows/consult-pro.md",
+      "sha256": "670775956937a4788ca4f8a1fab38b48176e2ec37c76ee3a52065db876dec532"
+    },
+    {
+      "name": "docs/harness/workflows/data.md",
+      "sha256": "d72e5dfac0e2fc5f31c1fc37681427952c033bb5ac1f758b3a2e0acabbd1c837"
+    },
+    {
+      "name": "docs/harness/workflows/gemini-rescue.md",
+      "sha256": "2bbba3b3ed8b6d4153ed5081eabf1275b9f0e624641ab576b69ec781442c8577"
+    },
+    {
+      "name": "docs/harness/workflows/handover.md",
+      "sha256": "3e7aa13180874b1fa14a84619ae5c1f2a6fcae0a91dd4bb76931c95481d13123"
+    },
+    {
+      "name": "docs/harness/workflows/html-feedback.md",
+      "sha256": "5e3b52f92a89e78dd4cbd03bfc2630975f801266f2486441cf65fb9d609c5547"
+    },
+    {
+      "name": "docs/harness/workflows/lessons.md",
+      "sha256": "a8c203ea05fc44cf712c6b59209cb92a2721bb3284c975de76313372af65c1e7"
+    },
+    {
+      "name": "docs/harness/workflows/media.md",
+      "sha256": "ce69d9e0ba77ce573ea164821aa9adf622608351b7218b5a99ded1f9d9de47a0"
+    },
+    {
+      "name": "docs/harness/workflows/ownership.md",
+      "sha256": "faad2c21a061e0c13bdfa495e326d0b937406e42230ba1ec9f620fd63a123da9"
+    },
+    {
+      "name": "docs/harness/workflows/queue.md",
+      "sha256": "9046cf3322ae718be1498702bb61512ce5975d770db2bd60a60475a8362a3547"
+    },
+    {
+      "name": "docs/harness/workflows/release-notes.md",
+      "sha256": "b672246ead6c1653dd2cf537e812d99527e5d214d058e227d6358c0f5888d87a"
+    },
+    {
+      "name": "docs/harness/workflows/release-qa.md",
+      "sha256": "fa893a25a98d7e54bb7f376faf283195088e4e8cd6017a7d66155039333f2809"
+    },
+    {
+      "name": "docs/harness/workflows/release.md",
+      "sha256": "c8485df64d21f8e7b46be578ff868974bd1df95d2bb83084c601633e77bb85cd"
+    },
+    {
+      "name": "docs/harness/workflows/review.md",
+      "sha256": "d7c0593af3052c5cc081c3f1321d416616559cbb088365c5aeb75d331281839c"
+    },
+    {
+      "name": "docs/harness/workflows/security.md",
+      "sha256": "30eefbce589c7c604f4b589bf1b71aab07ca2656ba29c34981aa1590c701dfe9"
+    },
+    {
+      "name": "docs/harness/workflows/start.md",
+      "sha256": "cea4953f636b9e2b22b946603ba4f379ef030aa5238f0b506520e7de3596abce"
+    },
+    {
+      "name": "docs/harness/workflows/task-planning.md",
+      "sha256": "118ff04ceb0aa1465de0de810ca5e151c1796d6c2d2dc54b6f361d189b96cf7f"
+    },
+    {
+      "name": "docs/harness/workflows/task-start.md",
+      "sha256": "0270b8c591a67e0568c6a6b908084d8c9236baf6aa622b5438036733f6ab9344"
+    },
+    {
+      "name": "docs/harness/workflows/ui.md",
+      "sha256": "523bae3dacc588e1d09f2e2b45ab65730b685dd77e572a7c541de0dca4ecc89b"
+    },
+    {
+      "name": "docs/harness/workflows/verification-handoff.md",
+      "sha256": "f0db1dde007eb3e6c865b46a2d311857e44af1c378aa631c1098e1271b79ca62"
+    },
+    {
+      "name": "docs/harness/workflows/verification.md",
+      "sha256": "929b2fa2e7446c612a1f1f85b24b6c0a7d3a49ac0dd1b303284dad60311a3c38"
+    },
+    {
+      "name": "docs/harness/workflows/worktrees.md",
+      "sha256": "2116cb49c5aed90e17eceff41982660264d57e1a817340000f06557d5b82e64f"
+    },
+    {
+      "name": "package.json",
+      "sha256": "45fb6a9017e5770c90b2874243a68d904e74edc936269c4a5303e6ab909de550"
+    },
+    {
+      "name": "tests/feedback/bridge.test.mjs",
+      "sha256": "32e8d04e7e168d1ea7cf7a19a8cbe1a10bb05971c11c09962e1d7d0fc17632a6"
+    },
+    {
+      "name": "tests/feedback/client.test.mjs",
+      "sha256": "86b137fa43a4ed89df958516be1b102b7942d9a04d5d49511a6051df823dd05d"
+    },
+    {
+      "name": "tests/feedback/test_feedback.py",
+      "sha256": "858165058a0b02e3d0a4f0bd0eedb6eb7ab58b56d7eade33a231a7f8a0a21d04"
+    },
+    {
+      "name": "tests/harness.test.mjs",
+      "sha256": "fa0c7183757767fbfdda189067b24b1ac1a9bd980307bec923745013970e2c21"
+    },
+    {
+      "name": "tests/setup/test_setup.py",
+      "sha256": "80efb7800bff6cc2eab0fe6cca288f547a6b3b560b3d5070f0b2197fd490d633"
+    },
+    {
+      "name": "tools/harness/advice/bundle.py",
+      "sha256": "6ceb715d6ea7b91cd01c1f8e67fee7061d8d8fd2d1ab0714929e69f2a2da4ec8"
+    },
+    {
+      "name": "tools/harness/advice/gemini.py",
+      "sha256": "7b6ecf7f15a704ffffa219680dab93ad5a2cca016bdb65d7ad3df8efd0368d93"
+    },
+    {
+      "name": "tools/harness/advice/key.py",
+      "sha256": "a16bee85905afa833b77baf5090641aef35374c0866f0980673ece3d8d800dda"
+    },
+    {
+      "name": "tools/harness/advice/privacy.py",
+      "sha256": "a88b29ecaa3cd7399b5a4b8ef9605fcd721c54c2cf7e74d46d266cd0be14fef9"
+    },
+    {
+      "name": "tools/harness/check.mjs",
+      "sha256": "1cece3194fd028ded827c7b2ad119c909ced6ed463208d06e96d9e174d82f98e"
+    },
+    {
+      "name": "tools/harness/export.mjs",
+      "sha256": "6cc9489c8dacc62f11cc3e3bcd03a2e414578dfcdeb02393dc2e6246bc132a89"
+    },
+    {
+      "name": "tools/harness/feedback/client.js",
+      "sha256": "0ea17c84f872b3c1981b4b8999e0514bbf28f1fccbd5276be7d1904f4dbce50e"
+    },
+    {
+      "name": "tools/harness/feedback/desktop_bridge.mjs",
+      "sha256": "c30b477eb8aaa822faf356e9dc438fd9dffb2ed27c12bd5317d32862e74d43b2"
+    },
+    {
+      "name": "tools/harness/feedback/outbox.py",
+      "sha256": "ae3b1922acdccbf994e5e021af3b60151df6c8e8f38be13580990abf0cee391c"
+    },
+    {
+      "name": "tools/harness/feedback/page.css",
+      "sha256": "f888c7a72a969a00cb52da61bc61f397d477f714785e18c0cade4840bf47cbda"
+    },
+    {
+      "name": "tools/harness/feedback/page.html",
+      "sha256": "6cb6bac5c5baccc1c09362b61c2d2853afa7605102676b0fb51831453b463ebc"
+    },
+    {
+      "name": "tools/harness/feedback/page.js",
+      "sha256": "1abc56f88ffbea4b677bbf02c1e61ced574c63cbccf590638d865516bb140ca5"
+    },
+    {
+      "name": "tools/harness/feedback/review_server.py",
+      "sha256": "4d90226a4ebc582caf22df90c4f500f699defb7b4ccc87aab8e8c61ab01c1b5a"
+    },
+    {
+      "name": "tools/harness/feedback/session.py",
+      "sha256": "e88f8dc748828d62ada06b7571f928df471aab2b025b464e2510e8eb3271b173"
+    },
+    {
+      "name": "tools/harness/install-manifest.json",
+      "sha256": "9eb6ca1b16bf4446a8b5838ed8302197ccc62c105f7a129b505e29a675b602f4"
+    },
+    {
+      "name": "tools/harness/lib.mjs",
+      "sha256": "584e106366e97a08b573cd712e221bc5b535e84c56fb9db93cf16765a29b6f39"
+    },
+    {
+      "name": "tools/harness/local_files.py",
+      "sha256": "c40813d92e7cf40754afec17ecf393a39ee42f084ce955162e923892ef0b8510"
+    },
+    {
+      "name": "tools/harness/package.json",
+      "sha256": "609158e6c5fbc237939fa3ddf7faab80ab690bdc0c8d584414a885130103c4e8"
+    },
+    {
+      "name": "tools/harness/preview.mjs",
+      "sha256": "a723ec26f1050de3a3c48e966145800fef6ae30f2071c6802e9f6bd50172372b"
+    },
+    {
+      "name": "tools/harness/scan.mjs",
+      "sha256": "716440854b93c1b7216b1772156654d519a986191c99a60459ceb5db6891e708"
+    },
+    {
+      "name": "tools/harness/setup.py",
+      "sha256": "b889f61b10b9a7b3c1a0294c997dccea732482076072a4a2caae40b86aedd0b3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "mode": "review",
+  "title": "変更案の確認",
+  "storageKey": "example-change-review-v1",
+  "decisions": ["この案で進める", "修正してほしい", "保留"],
+  "commentRequired": ["修正してほしい"],
+  "proposals": [
+    {
+      "id": "save-feedback",
+      "title": "保存した結果を画面で確認する",
+      "before": "保存ボタンを押す\n結果が表示されない",
+      "after": "保存ボタンを押す\n「保存しました」と表示する",
+      "reason": "押した結果が分かり、同じ操作を繰り返さずに済みます。"
+    },
+    {
+      "id": "failure-retry",
+      "title": "保存できなかった場合",
+      "before": "入力を消して画面を閉じる",
+      "after": "入力を残して再試行を選べる",
+      "reason": "接続が戻った後に、入力し直さずに再試行できます。"
+    }
+  ]
+}

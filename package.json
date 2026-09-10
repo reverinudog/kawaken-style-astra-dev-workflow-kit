@@ -1,0 +1,19 @@
+{
+  "name": "astra-dev-harness",
+  "version": "0.4.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "description": "Japanese development workflows and skills for Astra-led game, app, and web-service projects.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "docs:check": "node tools/harness/check.mjs",
+    "test": "node --test tests/harness.test.mjs",
+    "test:feedback": "node --test tests/feedback/bridge.test.mjs tests/feedback/client.test.mjs && python -X utf8 -m unittest discover -s tests/feedback -p test_*.py",
+    "harness:scan": "node tools/harness/scan.mjs",
+    "test:setup": "python -X utf8 -m unittest discover -s tests/setup -p test_*.py",
+    "harness:doctor": "python -X utf8 tools/harness/setup.py doctor"
+  }
+}

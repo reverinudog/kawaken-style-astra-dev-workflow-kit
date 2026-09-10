@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Astra Dev Harness — 開発の進め方を再利用する</title>
+<style>
+:root{color-scheme:dark;--bg:#11151e;--panel:#1c2431;--muted:#a7b5c9;--ink:#f5f7fb;--accent:#a99cff}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-snap-type:y proximity}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Yu Gothic UI","Meiryo",sans-serif;line-height:1.65}
+nav{position:fixed;top:0;left:0;right:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:18px 5vw;background:#11151eee;border-bottom:1px solid #303949;font-size:14px}
+nav a{color:var(--muted);text-decoration:none;margin-left:22px}nav a:hover,nav a:focus{color:var(--ink)}
+main{max-width:1340px;margin:auto}section{min-height:100svh;scroll-snap-align:start;padding:118px 6vw 65px;display:flex;flex-direction:column;justify-content:center;scroll-margin-top:0}
+.tag{color:var(--accent);font-size:14px;letter-spacing:.08em}h1,h2{font-size:clamp(28px,3.3vw,49px);line-height:1.35;margin:18px 0 20px;letter-spacing:.02em}
+.lead{color:var(--muted);font-size:clamp(17px,1.5vw,22px);margin:0 0 34px;max-width:860px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid #354154;border-radius:15px;padding:25px}.card strong{display:block;font-size:22px;margin:7px 0}.card p{color:var(--muted);margin:8px 0 0;font-size:17px}
+.num{color:var(--accent);font-size:15px}.flow{display:flex;gap:12px;align-items:stretch;flex-wrap:wrap}.step{flex:1;min-width:125px;border:1px solid #475265;border-radius:12px;padding:22px 18px;text-align:center;font-size:20px}.arrow{align-self:center;color:var(--accent);font-size:24px}.note{margin-top:26px;color:var(--muted);font-size:16px}.split{display:grid;grid-template-columns:1fr 1fr;gap:22px}.rows{display:grid;gap:14px}.row{display:grid;grid-template-columns:140px 1fr;gap:22px;padding:17px 21px;border-radius:10px;background:var(--panel);font-size:18px}.row span{color:var(--muted)}
+a{color:#c5bfff}.footer{font-size:14px;color:var(--muted);margin-top:35px}code{font-family:Consolas,monospace;background:#10151e;padding:3px 7px;border-radius:5px;font-size:.91em}
+@media(max-width:760px){nav{padding:13px 20px}nav a{margin-left:12px}.grid,.split{grid-template-columns:1fr}section{padding:95px 24px 44px}.card{padding:19px}.row{grid-template-columns:1fr;gap:4px}.flow{gap:8px}.step{font-size:17px;padding:15px 10px}.arrow{display:none}nav .label{max-width:130px;font-size:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head>
+<body><nav><strong class="label">ASTRA DEV HARNESS</strong><div><a href="#scope">構成</a><a href="#flow">手順</a><a href="#private">配布</a><a href="#start">導入</a></div></nav><main>
+<section id="scope"><div class="tag">01 / 再利用するもの</div><h1>ゲーム・アプリ・Webサービスに<br>共通の開発手順を。</h1><p class="lead">Astraが調査から実装・修正・確認まで担当するためのルールとスキルを、独立した運用一式にまとめています。</p>
+<div class="grid"><article class="card"><span class="num">入口</span><strong>AGENTS.md</strong><p>いつも守る条件と、必要な手順への案内。</p></article><article class="card"><span class="num">手順</span><strong>Workflow ＋ Skill</strong><p>作業に合う手順だけを読み、同じ指示を重複させない。</p></article><article class="card"><span class="num">導入先の設定</span><strong>PROJECT.md</strong><p>言語、端末、保存先、テスト、Git運用を製品ごとに決める。</p></article></div>
+<div class="footer">特定の作品の内容・コード・素材は含めません。</div></section>
+<section id="flow"><div class="tag">02 / 進め方</div><h2>目的を決め、必要な確認まで進める。</h2><p class="lead">工程ごとの再承認を増やさず、依頼された範囲を完了します。</p>
+<div class="flow"><div class="step">目的・範囲</div><div class="arrow">→</div><div class="step">調査・設計</div><div class="arrow">→</div><div class="step">実装・修正</div><div class="arrow">→</div><div class="step">レビュー</div><div class="arrow">→</div><div class="step">必要な検証</div></div>
+<div class="split" style="margin-top:26px"><div class="card"><strong>壊し得る動作を確かめる</strong><p>保存、権限、AI応答、画面など、変更の影響に合わせて確認を選びます。</p></div><div class="card"><strong>必要な場合に独立レビュー</strong><p>高リスクの変更や大きな修正は、別の視点でも読み取り確認を行います。</p></div></div>
+<p class="note">Git統合や公開は、依頼と導入先の設定で認められた範囲まで行います。</p></section>
+<section id="private"><div class="tag">03 / 配布する範囲</div><h2>独立した履歴で、非公開から始める。</h2><p class="lead">必要な運用だけを汎用化し、配布内容と過去の履歴を確認します。</p>
+<div class="split"><article class="card"><span class="num">含める</span><strong>再利用できる判断と手順</strong><p>計画・設計・レビュー・テスト・引き継ぎ<br>スキルの入口・ひな型・文書チェック</p></article><article class="card"><span class="num">含めない</span><strong>製品と個人のデータ</strong><p>作品設定・コード・画像・セーブ・履歴<br>認証情報・個人用パス・環境専用設定</p></article></div>
+<p class="note">MITライセンスを採用しています。一般公開への切替は所有者の明示指示で行います。機械チェックと内容レビューを併用します。</p></section>
+<section id="start"><div class="tag">04 / 導入する</div><h2>各プロジェクトに合わせて使う。</h2><p class="lead">既存のルールや実装を保持し、必要な部分を統合します。</p><div class="rows"><div class="row"><strong>1. 導入</strong><span>新規プロジェクトへ配置。既存の場合は差分を見て統合。</span></div><div class="row"><strong>2. 設定</strong><span><code>PROJECT.md</code>へ対象製品と実行・検証方法を記入。</span></div><div class="row"><strong>3. 依頼</strong><span>「この不具合を直して」「まず仕様を相談したい」と目的を伝える。</span></div></div>
+<p class="note">SETUP.mdを読み込ませ「セットアップ」で環境確認・配置・統合・検証へ。本人のログイン・キー発行・契約の選択だけを分けます。</p><div class="footer">日本語の汎用スターター / OpenAI公式製品ではありません。</div></section>
+<section id="commands"><div class="tag">05 / 普段の言い方で使う</div><h2>「ぬ」から始め、次の作業へつなぐ。</h2><div class="rows"><div class="row"><strong>ぬ</strong><span>タスク一覧HTML。選択・自由記入・途中保存・一括提出。</span></div><div class="row"><strong>ハンドオーバー</strong><span>記録、教訓、確認、承認されたGit統合と後片付け。</span></div><div class="row"><strong>LESSONに残して</strong><span>条件と予防策を記録し、次の関連作業で読む。</span></div><div class="row"><strong>Geminiレスキュー</strong><span>実画面の見た目・デザイン、創作を相談。APIキーが必要。</span></div><div class="row"><strong>GPT-6 Proに相談</strong><span>限定した資料でブラウザ相談。本人のログインとモデル利用権が必要。</span></div></div><p class="note">自動再開は導入先のCodexデスクトップで実接続を確認。外部相談の準備済みと実送信済みは区別します。</p></section>
+</main></body></html>

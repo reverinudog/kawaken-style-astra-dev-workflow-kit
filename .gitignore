@@ -1,0 +1,16 @@
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+node_modules/
+.local/
+screenshots/
+coverage/
+dist/
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
