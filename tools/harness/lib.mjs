@@ -27,7 +27,7 @@ export function validateDocs(root) {
   const entries = ['AGENTS.md', 'PROJECT.md', 'SETUP.md'];
   // The product README belongs to its maintainer after installation.
   const manifest = path.join(root, 'package.json');
-  if (fs.existsSync(manifest) && JSON.parse(fs.readFileSync(manifest, 'utf8')).name === 'astra-dev-harness') entries.push('README.md', 'SECURITY.md', 'CONTRIBUTING.md');
+  if (fs.existsSync(manifest) && JSON.parse(fs.readFileSync(manifest, 'utf8')).name === 'kawaken-style-astra-dev-workflow-kit') entries.push('README.md', 'SECURITY.md', 'CONTRIBUTING.md');
   for (const name of entries) {
     const full = path.join(root, name);
     if (!fs.existsSync(full)) continue;

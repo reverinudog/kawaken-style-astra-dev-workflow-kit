@@ -1,4 +1,4 @@
-# Astra Dev Harness — 共通入口
+# Kawaken style Astra Dev Workflow Kit — 共通入口
 
 この入口は不変条件と手順への案内だけを持つ。まず[PROJECT.md](PROJECT.md)で導入先を確認する。
 現在のユーザー依頼・承認範囲を、過去の既定や手順の例より優先する。ツール環境の権限制限は越えない。

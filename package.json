@@ -1,10 +1,10 @@
 {
-  "name": "astra-dev-harness",
+  "name": "kawaken-style-astra-dev-workflow-kit",
   "version": "0.4.0",
   "license": "MIT",
   "private": true,
   "type": "module",
-  "description": "Japanese development workflows and skills for Astra-led game, app, and web-service projects.",
+  "description": "Kawaken style Astra Dev Workflow Kit: Japanese workflows, skills, templates, and local tools for game, app, and web-service development with Astra in Codex.",
   "engines": {
     "node": ">=22"
   },

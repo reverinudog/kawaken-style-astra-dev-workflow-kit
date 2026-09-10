@@ -62,6 +62,10 @@ test('skill frontmatter and required local references must remain usable', t => 
   fs.mkdirSync(unrelated);
   fs.symlinkSync(unrelated, path.join(root, 'environment-link'), process.platform === 'win32' ? 'junction' : 'dir');
   assert.deepEqual(validateDocs(root).issues, []);
+  write(root, 'package.json', '{"name":"kawaken-style-astra-dev-workflow-kit"}');
+  assert.match(validateDocs(root).issues.join('\n'), /README\.md: missing link unrelated\.md/);
+  write(root, 'README.md', '[Setup](PROJECT.md)\n');
+  assert.deepEqual(validateDocs(root).issues, []);
 });
 
 test('distribution scanner flags secrets, personal paths, binary data and source-specific prose', () => {
